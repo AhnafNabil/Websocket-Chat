@@ -1,6 +1,6 @@
 # Description of the Whole Task
 
-1. main.go:
+## 1. main.go:
 
 This file contains the server-side logic for the WebSocket chat application.
 
@@ -30,7 +30,7 @@ f) handleMessages function:
    - Continuously listens on the broadcast channel for new messages.
    - When a message is received, it sends it to all connected clients.
 
-2. index.html:
+## 2. index.html:
 
 This file contains the client-side interface and logic for the chat application.
 
@@ -45,7 +45,7 @@ b) JavaScript:
    - Sets up an onmessage event handler to display received messages.
    - Implements a sendMessage function to send messages to the server.
 
-The whole process works as follows:
+## The whole process
 
 1. When you run the server (main.go), it starts listening for HTTP connections on port 8080.
 
